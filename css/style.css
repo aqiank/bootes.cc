@@ -1,0 +1,80 @@
+html, body, .main-container {
+    overflow-x: hidden;
+}
+
+.main {
+    overflow-y: hidden;
+}
+
+@font-face {
+    src: url('../fonts/Soleil Regular/Soleil_Regular.otf');
+    font-family: 'Soleil';
+}
+
+* {
+    font-family: 'Soleil' !important;
+    font-weight: 100;
+}
+
+input[type=text],
+textarea {
+    padding: 8px;
+    padding: .5rem;
+    border: 1px solid #555555;
+    border-radius: 0;
+    margin: 8px 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+button[type=submit] {
+    background: #444444;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 0;
+    padding: 8px 32px;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    float: right;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #555555;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #555555;
+    opacity:  1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #555555;
+    opacity:  1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #555555;
+}
+
+.logo {
+    max-width: 40%;
+}
+
+.left,
+.right {
+    padding: 32px;
+    padding: 2rem;
+}
+
+.contact-us {
+    color: #3f3f42;
+    margin-top: 64px;
+    margin-top: 4rem;
+}
+
+@media (max-width: 640px) {
+    .logo2 {
+        max-height: 10rem;
+    }
+}
